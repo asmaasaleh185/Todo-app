@@ -31,7 +31,7 @@ function addTask(element) {
     <p class="taskText ${
       element && element.complete ? "complete" : ""
     }">${text}</p>
-    <button class="close"><img src="images/icon-cross.svg" class="." alt=""></button>
+    <button class="close"><img src="images/icon-cross.svg" alt=""></button>
     `;
     
     // add task
