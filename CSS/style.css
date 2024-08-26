@@ -29,6 +29,7 @@ a {
     width: 100%;
     height: 100%;
 }
+
 /* End Global */
 /* Start Content */
 .content {
@@ -303,6 +304,7 @@ header label input:checked~.moon {
     text-decoration: line-through;
     opacity: 0.5;
 }
+
 /* End Section */
 
 /* styling light mode */
@@ -355,5 +357,14 @@ header label input:checked~.moon {
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
+    }
+
+    .light-list nav ul {
+        background-color: hsl(0, 0%, 98%) !important;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .info nav ul li.active a {
+        color: hsl(220, 98%, 61%);
     }
 }
