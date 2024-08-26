@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo app</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!-- Start container -->
+  <div class="container">
+    <div class="content">
+      <header>
+        <h1>TODO</h1>
+        <label for="lightMode">
+          <input type="checkbox" name="mode" id="lightMode">
+          <img src="images/icon-moon.svg" class="moon" alt="">
+          <img src="images/icon-sun.svg" class="sun" alt="">
+        </label>
+      </header>
+    </div>
+
+    <section id="todo_list">
+      <div class="todo">
+        <form action="">
+          <label for="task">
+            <span></span>
+            <input type="text" placeholder="Create a new todo..." id="task">
+          </label>
+        </form>
+        <div class="list">
+          <ul></ul>
+        </div>
+        <div class="info">
+          <p class="left">5 items left</p>
+          <nav>
+            <ul>
+              <li class="active"><a href="#">All</a></li>
+              <li><a href="#">Active</a></li>
+              <li><a href="#">Completed</a></li>
+            </ul>
+          </nav>
+          <button class="clear">Clear Completed</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End container -->
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
